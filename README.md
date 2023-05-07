@@ -1,10 +1,8 @@
 # Houdini Sponsors
 
-## result
+![Sponsors](https://raw.githubusercontent.com/HoudiniGraphql/sponsors/main/generated/sponsors.svg)
 
-![Sponsors](https://raw.githubusercontent.com/HoudiniGraphql/sponsors/main/generated/sponsors.png)
-
-## Trigger a new workflow
+### How update the sponsors?
 
 Call the workflow with the following command:
 
