@@ -1,0 +1,34 @@
+name: Generate Sponsors
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 15 * * 0-6"
+
+jobs:
+  update-sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+      - uses: actions/checkout@v3
+
+      - name: Set node 🌐
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+
+      - name: Install 📦
+      - run: npx pnpm i
+
+      - name: Generate Sponsors 💖
+        run: npm run build
+        env:
+          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
+
+      - name: Commit 🚀
+        uses: EndBug/add-and-commit@v4
+        with:
+          message: "chore: update sponsors.svg"
+          add: "sponsors.*"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
