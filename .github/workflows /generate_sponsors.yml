@@ -1,4 +1,4 @@
-name: Generate Sponsors
+name: generate_sponsors
 
 on:
   workflow_dispatch:
