@@ -6,7 +6,7 @@ on:
     - cron: "30 15 * * 0-6"
 
 jobs:
-  update-sponsors:
+  generate_sponsors:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
