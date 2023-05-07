@@ -28,7 +28,7 @@ jobs:
       - name: Commit 🚀
         uses: EndBug/add-and-commit@v4
         with:
-          message: "chore: update sponsors.svg"
+          message: "chore: update sponsors assets"
           add: "sponsors.*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
