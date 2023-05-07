@@ -1,0 +1,12 @@
+{
+  "name": "sponsors",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "sponsorkit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "sponsorkit": "0.8.3"
+  }
+}
