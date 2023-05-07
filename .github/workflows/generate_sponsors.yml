@@ -20,15 +20,15 @@ jobs:
       - name: Install 📦
         run: npx pnpm i
 
-      - name: Generate Sponsors 💖
-        run: npm run build
-        env:
-          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
+      # - name: Generate Sponsors 💖
+      #   run: npm run build
+      #   env:
+      #     SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
 
-      - name: Commit 🚀
-        uses: EndBug/add-and-commit@v4
-        with:
-          message: "chore: update sponsors.svg"
-          add: "sponsors.*"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Commit 🚀
+      #   uses: EndBug/add-and-commit@v4
+      #   with:
+      #     message: "chore: update sponsors.svg"
+      #     add: "sponsors.*"
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
