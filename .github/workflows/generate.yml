@@ -1,4 +1,4 @@
-name: generate_sponsors
+name: generate
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: "30 15 * * 0-6"
 
 jobs:
-  generate_sponsors:
+  update-sponsors:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
