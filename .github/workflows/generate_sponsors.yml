@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Set node 🌐
         uses: actions/setup-node@v3
@@ -18,7 +18,7 @@ jobs:
           node-version: lts/*
 
       - name: Install 📦
-      - run: npx pnpm i
+        run: npx pnpm i
 
       - name: Generate Sponsors 💖
         run: npm run build
