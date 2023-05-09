@@ -2,7 +2,7 @@
 
 ![Sponsors](https://raw.githubusercontent.com/HoudiniGraphql/sponsors/main/generated/sponsors.svg)
 
-### How update the sponsors?
+### How update sponsors assets?
 
 Call the workflow with the following command:
 
