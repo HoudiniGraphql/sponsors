@@ -6,6 +6,8 @@
 
 Call the workflow with the following command:
 
+_`<YOUR-TOKEN>` Requires the `repo` scope._
+
 ```bash
 curl -L \
   -X POST \
