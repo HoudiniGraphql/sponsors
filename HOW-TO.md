@@ -7,12 +7,12 @@ Let's write a short description of how all this works after somone [sponsors us]
 ```mermaid
 sequenceDiagram
     actor YOU as You
-    participant SP as Sponsoring Page
+    participant SP as GitHub Sponsoring Page
     Note right of SP: Webhook setup
     participant HS as Houdini Site
     Note right of HS: Handler with: WEBHOOK_PATH
     Note right of HS: Handler with: GITHUB_TOKEN
-    participant SG as Repo Sponsors generator
+    participant SG as Repo Sponsors Generator
 
 
     YOU->>+SP: New Sponsor 💖
@@ -20,9 +20,14 @@ sequenceDiagram
     SP->>+HS: Webhook (generate new asset)
     HS->>+SG: Webhook (trigger "update-sponsors" action)
     SG->>+SG: New Asset
-    SG->>-YOU: You are on the asset 🙏
+    SG->>-HS: You are on the asset
+    Note right of HS: https://houdinigraphql.com/_sponsors
+    YOU->>YOU: 🙏 Thx a lot 🙏
 
 ```
+
+<br />
+<br />
 
 ## How update sponsors assets?
 

@@ -1,15 +1,15 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HoudiniGraphql/houdini/main/.github/assets/logo_l.svg">
-    <img height="140" alt="Houdini's logo (dark or light)" src="https://raw.githubusercontent.com/HoudiniGraphql/houdini/main/.github/assets/logo_d.svg">
+    <img height="100" alt="Houdini's logo (dark or light)" src="https://raw.githubusercontent.com/HoudiniGraphql/houdini/main/.github/assets/logo_d.svg">
   </picture>
 
-  <br />
   <br />
 
   <strong>
     The disappearing GraphQL client.
   </strong>
+  <br />
   <br />
 </div>
 
