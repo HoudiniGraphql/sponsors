@@ -6,8 +6,7 @@ export default defineConfig({
     type: "organization",
   },
   outputDir: "generated",
-  width: 830,
-
+  width: 800,
   tiers: [
     {
       title: "Wizard",
