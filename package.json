@@ -8,6 +8,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "sponsorkit": "0.8.3"
+    "sponsorkit": "0.8.9"
   }
 }
